@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camper Cafe Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('coffee.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .menu-container {
+            background-color: #e1a188;
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        .menu-header {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .menu-subtitle {
+            font-style: italic;
+            color: #555;
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #8b0000;
+            margin: 20px 0;
+        }
+        .menu-section {
+            margin: 20px 0;
+        }
+        .menu-section h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .menu-section h2 img {
+            vertical-align: middle;
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+        .menu-footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+        .menu-footer a {
+            text-decoration: none;
+            color: #8b0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-header"><b>CAMPER CAFE</b></div>
+        <div class="menu-subtitle">Est. 2020</div>
+        <hr>
+        <div class="menu-section">
+            <h2>
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/coffee.png" alt="Coffee Icon">
+                Coffee
+            </h2>
+            <div class="menu-item">
+                <span>French Vanilla</span>
+                <span>3.00</span>
+            </div>
+            <div class="menu-item">
+                <span>Caramel Macchiato</span>
+                <span>3.75</span>
+            </div>
+            <div class="menu-item">
+                <span>Pumpkin Spice</span>
+                <span>3.50</span>
+            </div>
+            <div class="menu-item">
+                <span>Hazelnut</span>
+                <span>4.00</span>
+            </div>
+            <div class="menu-item">
+                <span>Mocha</span>
+                <span>4.50</span>
+            </div>
+        </div>
+        <div class="menu-section">
+            <h2>
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/cake.png" alt="Desserts Icon">
+                Desserts
+            </h2>
+            <div class="menu-item">
+                <span>Donut</span>
+                <span>1.50</span>
+            </div>
+            <div class="menu-item">
+                <span>Cherry Pie</span>
+                <span>2.75</span>
+            </div>
+            <div class="menu-item">
+                <span>Cheesecake</span>
+                <span>3.00</span>
+            </div>
+            <div class="menu-item">
+                <span>Cinnamon Roll</span>
+                <span>2.50</span>
+            </div>
+        </div>
+        <hr>
+        <div class="menu-footer">
+            <a href="#">Visit our website</a><br>
+            123 Free Code Camp Drive
+        </div>
+    </div>
+</body>
+</html>
